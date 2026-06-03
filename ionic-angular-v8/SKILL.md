@@ -30,6 +30,8 @@ Use when writing, editing, or reviewing **Ionic Framework v8 code in Angular** (
 | Inputs with `ngModel`/Reactive Forms | Read `references/guides/forms.md` |
 | Pages, lazy routes, tabs, back button | Read `references/guides/navigation.md` |
 | App colors, custom color, dark mode, modes, `::part()` | Read `references/guides/theming.md` |
+| Typing `(ionChange)`/`(ionInput)` handlers, event detail | Read `references/guides/events-and-types.md` |
+| `provideIonicAngular` / global IonicConfig options | Read `references/guides/config.md` |
 
 ## Execution Steps
 
@@ -49,4 +51,4 @@ Use when writing, editing, or reviewing **Ionic Framework v8 code in Angular** (
 
 - `references/index.md` — all 95 components → import name, controller, reference file.
 - `references/components/<slug>.md` — precise per-component API (from `@ionic/core` v8 `docs.json`).
-- `references/guides/setup.md`, `overlays.md`, `forms.md`, `navigation.md`, `theming.md` — verified v8 standalone patterns.
+- `references/guides/setup.md`, `overlays.md`, `forms.md`, `navigation.md`, `theming.md`, `events-and-types.md`, `config.md` — verified v8 standalone patterns.
