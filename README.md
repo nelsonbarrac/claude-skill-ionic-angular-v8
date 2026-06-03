@@ -6,7 +6,7 @@ It gives the model:
 
 - A concise `SKILL.md` with v8 standalone conventions (imports, `imports: []`, controllers, icons).
 - Precise per-component API reference for **all 95 `ion-*` components** — props (with resolved union types), defaults, events, methods, CSS variables, slots, and shadow parts.
-- Domain guides: project setup, overlays (controller vs inline), forms, navigation, and theming.
+- Domain guides: project setup, overlays (controller vs inline), forms, navigation, theming, typed events, and global config.
 
 The API data is generated from `@ionic/core` v8's `dist/docs.json` (Stencil's `docs-json` output), so props/types/defaults are exact — not guessed.
 
@@ -23,7 +23,9 @@ ionic-angular-v8/            # ← the skill (copy this into your skills dir)
         ├── overlays.md
         ├── forms.md
         ├── navigation.md
-        └── theming.md
+        ├── theming.md
+        ├── events-and-types.md
+        └── config.md
 tools/gen.js                 # regenerator (see "Updating")
 ```
 
