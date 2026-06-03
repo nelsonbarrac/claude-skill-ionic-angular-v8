@@ -1,0 +1,4 @@
+node_modules/
+ionic-extract/
+*.log
+.DS_Store
