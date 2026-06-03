@@ -31,10 +31,12 @@ tools/gen.js                 # regenerator (see "Updating")
 
 Skills live in `~/.claude/skills/` (available in **all** projects) or `<project>/.claude/skills/` (that project only).
 
+> Examples use HTTPS. If you have SSH set up, swap the clone URL for `git@github.com:nelsonbarrac/claude-skill-ionic-angular-v8.git`.
+
 ### Option A — global (recommended)
 
 ```bash
-git clone git@github.com:nelsonbarrac/claude-skill-ionic-angular-v8.git /tmp/ionic-skill
+git clone https://github.com/nelsonbarrac/claude-skill-ionic-angular-v8.git /tmp/ionic-skill
 cp -r /tmp/ionic-skill/ionic-angular-v8 ~/.claude/skills/
 rm -rf /tmp/ionic-skill
 ```
@@ -42,7 +44,7 @@ rm -rf /tmp/ionic-skill
 ### Option B — single project
 
 ```bash
-git clone git@github.com:nelsonbarrac/claude-skill-ionic-angular-v8.git /tmp/ionic-skill
+git clone https://github.com/nelsonbarrac/claude-skill-ionic-angular-v8.git /tmp/ionic-skill
 mkdir -p .claude/skills
 cp -r /tmp/ionic-skill/ionic-angular-v8 .claude/skills/
 rm -rf /tmp/ionic-skill
