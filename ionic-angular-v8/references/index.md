@@ -7,6 +7,7 @@
 - [overlays](guides/overlays.md) — controller (DI) vs inline
 - [forms](guides/forms.md) — ngModel & reactive forms
 - [navigation](guides/navigation.md) — Angular Router, back button, tabs, lifecycle
+- [theming](guides/theming.md) — app colors, custom colors, dark mode, modes, ::part()
 
 ## Components
 
