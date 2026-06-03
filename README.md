@@ -6,7 +6,7 @@ It gives the model:
 
 - A concise `SKILL.md` with v8 standalone conventions (imports, `imports: []`, controllers, icons).
 - Precise per-component API reference for **all 95 `ion-*` components** — props (with resolved union types), defaults, events, methods, CSS variables, slots, and shadow parts.
-- Domain guides: project setup, overlays (controller vs inline), forms, and navigation.
+- Domain guides: project setup, overlays (controller vs inline), forms, navigation, and theming.
 
 The API data is generated from `@ionic/core` v8's `dist/docs.json` (Stencil's `docs-json` output), so props/types/defaults are exact — not guessed.
 
@@ -22,7 +22,8 @@ ionic-angular-v8/            # ← the skill (copy this into your skills dir)
         ├── setup.md
         ├── overlays.md
         ├── forms.md
-        └── navigation.md
+        ├── navigation.md
+        └── theming.md
 tools/gen.js                 # regenerator (see "Updating")
 ```
 
@@ -33,7 +34,7 @@ Skills live in `~/.claude/skills/` (available in **all** projects) or `<project>
 ### Option A — global (recommended)
 
 ```bash
-git clone <REPO_URL> /tmp/ionic-skill
+git clone git@github.com:nelsonbarrac/claude-skill-ionic-angular-v8.git /tmp/ionic-skill
 cp -r /tmp/ionic-skill/ionic-angular-v8 ~/.claude/skills/
 rm -rf /tmp/ionic-skill
 ```
@@ -41,7 +42,7 @@ rm -rf /tmp/ionic-skill
 ### Option B — single project
 
 ```bash
-git clone <REPO_URL> /tmp/ionic-skill
+git clone git@github.com:nelsonbarrac/claude-skill-ionic-angular-v8.git /tmp/ionic-skill
 mkdir -p .claude/skills
 cp -r /tmp/ionic-skill/ionic-angular-v8 .claude/skills/
 rm -rf /tmp/ionic-skill
